@@ -22,8 +22,14 @@
           <a-sphere id="sun" position="-15 10 30" radius="1" color="yellow" material="" geometry=""></a-sphere>
           <a-gltf-model id="treeA1 " src="src/gltf/naturePack_063.gltf" position="0.34767 0 6.98008"
             gltf-model="src/gltf/naturePack_063.gltf" scale="0.77 0.85 0.89" visible="" rotation="0 4 0"></a-gltf-model>
-          <a-gltf-model id="cloud1" src="src/gltf/naturePack_174.gltf" position="-15.15183 21.22686 -21.8289"
-            gltf-model="src/gltf/naturePack_174.gltf" scale="4.59 0.69 1.39"></a-gltf-model>
+          <a-gltf-model
+            id="cloud1"
+            src="src/gltf/naturePack_174.gltf"
+            position="-15.15183 21.22686 -21.8289"
+            gltf-model="src/gltf/naturePack_174.gltf"
+            scale="4.59 0.69 1.39"
+            animation="property: rotation; to: 0 360 0; loop: true; dur: 1000000; easing: linear; origin: 0 0 10"
+          ></a-gltf-model>
           <a-gltf-model id="cloud1-6" src="src/gltf/naturePack_174.gltf" position="-55.39282 18.92182 0"
             gltf-model="src/gltf/naturePack_174.gltf" scale="4.59 0.69 20"></a-gltf-model>
           <a-gltf-model id="cloud1-5" src="src/gltf/naturePack_174.gltf" position="69.45424 18.97581 -5.46078"
@@ -92,6 +98,7 @@
           <div class="a-loader-title" style="display: none;">3D</div>
           <div class="a-loader-title" style="display: none;">3D</div>
         </a-scene>
+        <script src="/index.js"></script>
       </body>
     </html>
   </body>
